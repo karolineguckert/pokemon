@@ -1,0 +1,28 @@
+{
+  "name": "pokemon",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "ts-node src/scripts/Server.ts",
+    "publisher": "ts-node src/scripts/publisher.ts",
+    "subscriber": "ts-node src/scripts/subscriber.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "amqplib": "^0.10.3",
+    "axios": "^1.5.1",
+    "dotenv": "^16.3.1",
+    "mongoose": "^7.6.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.3",
+    "@types/node": "^20.8.6"
+  }
+}
